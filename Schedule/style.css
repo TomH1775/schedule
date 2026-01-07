@@ -1,0 +1,120 @@
+/*Color for body and title*/
+.app-body {
+  background-color: black;
+  color: white;
+  font-family: cursive;
+  margin: 0;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: fantasy;
+  letter-spacing: 0.12em;
+}
+
+.shifted-text {
+  margin-left: 100px;
+  font-family: monospace;
+  letter-spacing: 0.12em;
+  font-size: 25px;
+}
+
+@media (max-width: 480px) {
+  .shifted-text { margin-left: 10px; }
+}
+
+/*Added CSS for typewriter effect*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: system-ui;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    padding: 80px 40px;
+    background-color: #3a8fff;
+  }
+  
+  .typewriter {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .typewriter p {
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin-inline: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid;
+    animation: typing 3s steps(22) forwards, blink 1s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+/* Typewriter 2 */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: system-ui;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    padding: 80px 40px;
+    background-color: #3a8fff;
+  }
+  
+  .typewriter-2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .typewriter-2 p {
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin-inline: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid;
+    animation: typing 5s steps(22) forwards, blink 1s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
